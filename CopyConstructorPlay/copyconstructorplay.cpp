@@ -1,3 +1,5 @@
+// Example making objects uncopyable
+
 #include <iostream>
 
 class Widget {
