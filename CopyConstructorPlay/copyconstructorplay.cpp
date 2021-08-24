@@ -13,7 +13,7 @@ public:
     // Normal copy constructor
     Widget(const Widget& other) : Widget(other.data) {}
 
-    // Option #2 to prevent copying: Make the copy constructor deleted 
+    // Option #2 to prevent copying: Make the copy constructor "deleted" 
     //Widget(const Widget& other) = delete;
 
     int get() const {
