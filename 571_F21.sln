@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyConstructorPlay", "Copy
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddressOfReference", "AddressOfReference\AddressOfReference.vcxproj", "{BF1D55E0-B1BD-4BCE-AA6F-C946EDF0876C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultipleInclusion", "MultipleInclusion\MultipleInclusion.vcxproj", "{34401D65-61DD-488E-BADE-5EDC7BF56AB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CtorInitList", "CtorInitList\CtorInitList.vcxproj", "{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +35,22 @@ Global
 		{BF1D55E0-B1BD-4BCE-AA6F-C946EDF0876C}.Release|x64.Build.0 = Release|x64
 		{BF1D55E0-B1BD-4BCE-AA6F-C946EDF0876C}.Release|x86.ActiveCfg = Release|Win32
 		{BF1D55E0-B1BD-4BCE-AA6F-C946EDF0876C}.Release|x86.Build.0 = Release|Win32
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Debug|x64.ActiveCfg = Debug|x64
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Debug|x64.Build.0 = Debug|x64
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Debug|x86.Build.0 = Debug|Win32
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Release|x64.ActiveCfg = Release|x64
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Release|x64.Build.0 = Release|x64
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Release|x86.ActiveCfg = Release|Win32
+		{34401D65-61DD-488E-BADE-5EDC7BF56AB1}.Release|x86.Build.0 = Release|Win32
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Debug|x64.ActiveCfg = Debug|x64
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Debug|x64.Build.0 = Debug|x64
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Debug|x86.Build.0 = Debug|Win32
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Release|x64.ActiveCfg = Release|x64
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Release|x64.Build.0 = Release|x64
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Release|x86.ActiveCfg = Release|Win32
+		{CAADC283-2A7A-44EF-B518-378DAB4ABCF5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
